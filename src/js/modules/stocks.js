@@ -1,4 +1,4 @@
-const swiper = new Swiper(".swiper", {
+new Swiper(".swiper__stocks", {
   navigation: {
     nextEl: ".swiper-button-next", // класс нашего элемента, который яв. кнопкой
     prevEl: ".swiper-button-prev", // класс нашего элемента, который яв. кнопкой

@@ -1,19 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Perxis</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
-    <link rel="stylesheet" href="./css/main.css" />
-  </head>
-  <body>
-    <div class="wrapper">
-      <header class="header">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Perxis</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
   <div class="container">
     <div class="header__row">
       <div class="header__left">
@@ -50,14 +49,101 @@
   </div>
 </header>
 
-      <main>
-        <section class="stocks">
+    <main>
+      <section class="first">
+    <div class="container">
+        <!-- Slider main container -->
+        <div class="swiper swiper__first">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide first__slide">
+                    <h2 class="first__title">Яркий заголовок</h2>
+                    <h3 class="first__subtitle">Слоган или предложение</h3>
+                    <p class="first__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                    <a href="" class="first__button">
+                        <p class="first__button-text">подобрать</p>
+                        <img src="../../img/first/arr.png" alt="" class="first__button-img" />
+                    </a>
+                </div>
+                <div class="swiper-slide first__slide">
+                    <h2 class="first__title">Яркий заголовок</h2>
+                    <h3 class="first__subtitle">Слоган или предложение</h3>
+                    <p class="first__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                    <a href="" class="first__button">
+                        <p class="first__button-text">подобрать</p>
+                        <img src="../../img/first/arr.png" alt="" class="first__button-img" />
+                    </a>
+                </div>
+                <div class="swiper-slide first__slide">
+                    <h2 class="first__title">Яркий заголовок</h2>
+                    <h3 class="first__subtitle">Слоган или предложение</h3>
+                    <p class="first__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                    <a href="" class="first__button">
+                        <p class="first__button-text">подобрать</p>
+                        <img src="../../img/first/arr.png" alt="" class="first__button-img" />
+                    </a>
+                </div>
+                <div class="swiper-slide first__slide">
+                    <h2 class="first__title">Яркий заголовок</h2>
+                    <h3 class="first__subtitle">Слоган или предложение</h3>
+                    <p class="first__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                    <a href="" class="first__button">
+                        <p class="first__button-text">подобрать</p>
+                        <img src="../../img/first/arr.png" alt="" class="first__button-img" />
+                    </a>
+                </div>
+                <div class="swiper-slide first__slide">
+                    <h2 class="first__title">Яркий заголовок</h2>
+                    <h3 class="first__subtitle">Слоган или предложение</h3>
+                    <p class="first__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                    <a href="" class="first__button">
+                        <p class="first__button-text">подобрать</p>
+                        <img src="../../img/first/arr.png" alt="" class="first__button-img" />
+                    </a>
+                </div>
+                <div class="swiper-slide first__slide">
+                    <h2 class="first__title">Яркий заголовок</h2>
+                    <h3 class="first__subtitle">Слоган или предложение</h3>
+                    <p class="first__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                    <a href="" class="first__button">
+                        <p class="first__button-text">подобрать</p>
+                        <img src="../../img/first/arr.png" alt="" class="first__button-img" />
+                    </a>
+                </div>
+            </div>
+            <div class="swiper-pagination first-pagination"></div>
+
+            <div class="swiper-button-prev first-button-prev"></div>
+            <div class="swiper-button-next first-button-next"></div>
+
+        </div>
+    </div>
+</section> <section class="stocks">
   <div class="container">
     <h2 class="stocks__title">Акции и предложения</h2>
 
-    <div class="swiper">
+    <div class="swiper swiper__stocks">
       <div class="swiper-wrapper stocks__row">
-        <div class="swiper-slide">
+        <div class="swiper-slide stocks-slide">
           <div class="stocks__card">
             <img src="../../img/stocks/1.png" alt="" class="stocks__card-img" />
             <h3 class="stocks__card-title">Название акции или предложения</h3>
@@ -67,15 +153,11 @@
             </p>
             <a href="" class="stocks__card-button">
               <p class="card-button__text">Узнать больше</p>
-              <img
-                src="../../img/stocks/arr.png"
-                alt=""
-                class="card-button__img"
-              />
+              <img src="../../img/stocks/arr.png" alt="" class="card-button__img" />
             </a>
           </div>
         </div>
-        <div class="swiper-slide">
+        <div class="swiper-slide stocks-slide">
           <div class="stocks__card">
             <img src="../../img/stocks/2.png" alt="" class="stocks__card-img" />
             <h3 class="stocks__card-title">Название предложения</h3>
@@ -85,15 +167,11 @@
             </p>
             <a href="" class="stocks__card-button">
               <p class="card-button__text">Узнать больше</p>
-              <img
-                src="../../img/stocks/arr.png"
-                alt=""
-                class="card-button__img"
-              />
+              <img src="../../img/stocks/arr.png" alt="" class="card-button__img" />
             </a>
           </div>
         </div>
-        <div class="swiper-slide">
+        <div class="swiper-slide stocks-slide">
           <div class="stocks__card">
             <img src="../../img/stocks/3.png" alt="" class="stocks__card-img" />
             <h3 class="stocks__card-title">Название акции</h3>
@@ -103,11 +181,7 @@
             </p>
             <a href="" class="stocks__card-button">
               <p class="card-button__text">Узнать больше</p>
-              <img
-                src="../../img/stocks/arr.png"
-                alt=""
-                class="card-button__img"
-              />
+              <img src="../../img/stocks/arr.png" alt="" class="card-button__img" />
             </a>
           </div>
         </div>
@@ -120,16 +194,15 @@
       <img src="../../img/stocks/arr.png" alt="" class="stocks__btn-img" />
     </a>
   </div>
-</section>
- <section class="advantages">
+</section> <section class="advantages">
   <div class="container">
     <h2 class="advantages__title">Наши преимущества</h2>
 
-    <div class="swiper">
+    <div class="swiper swiper__stocks">
       <!-- Additional required wrapper -->
       <div class="swiper-wrapper">
         <!-- Slides -->
-        <div class="swiper-slide">
+        <div class="swiper-slide stocks-slide">
           <div class="advantages__post">
             <img
               src="../../img/advantages/cash.png"
@@ -142,7 +215,7 @@
             </p>
           </div>
         </div>
-        <div class="swiper-slide">
+        <div class="swiper-slide stocks-slide">
           <div class="advantages__post">
             <img
               src="../../img/advantages/car.png"
@@ -155,7 +228,7 @@
             </p>
           </div>
         </div>
-        <div class="swiper-slide">
+        <div class="swiper-slide stocks-slide">
           <div class="advantages__post">
             <img
               src="../../img/advantages/instr.png"
@@ -174,14 +247,15 @@
   </div>
 </section>
 
-      </main>
-      <footer class="footer">
+    </main>
+    <footer class="footer">
 	
 </footer>
 
-    </div>
+  </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="./js/index.bundle.js"></script>
-  </body>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="./js/index.bundle.js"></script>
+</body>
+
 </html>

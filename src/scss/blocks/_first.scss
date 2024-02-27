@@ -1,0 +1,84 @@
+.first {
+  padding-top: 239px;
+  padding-bottom: 54px;
+  background: url("../../img/first/bg.png") center no-repeat;
+  background-size: cover;
+}
+.first__title {
+  color: rgb(255, 255, 255);
+  font-family: Proxima Nova;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 8px;
+}
+.first__subtitle {
+  color: rgb(255, 255, 255);
+  font-family: Proxima Nova;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 16px;
+}
+.first__text {
+  color: rgb(255, 255, 255);
+  font-family: Proxima Nova;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 40px;
+  max-width: 380px;
+}
+.first__button {
+  width: fit-content;
+  margin-bottom: 167px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 16px 24px;
+  box-sizing: border-box;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 8px;
+}
+.first__button-text {
+  color: rgb(255, 255, 255);
+  font-family: Proxima Nova;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 5%;
+  text-align: left;
+  text-transform: uppercase;
+
+}
+.first-slide {
+  justify-content: start;
+}
+.first__button-img {
+}
+.first-pagination {
+ 
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        gap: 13px;
+      
+}
+.first-button-next, .first-button-prev {
+    color: white;
+    
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px 0px rgba(38, 38, 38, 0.1);
+    padding: 25px;
+   
+    
+}
+
