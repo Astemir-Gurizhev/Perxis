@@ -1,0 +1,70 @@
+.advantages {
+  padding-top: 76px;
+  padding-bottom: 102px;
+}
+.advantages__title {
+  color: rgb(38, 38, 38);
+  font-family: Proxima Nova;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 54px;
+}
+.advantages__row {
+  
+}
+.advantages__post {
+  padding-top: 42px;
+  padding-bottom: 36px;
+  padding-inline: 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  box-sizing: border-box;
+  border: 2px solid rgb(230, 228, 228);
+  border-radius: 18px;
+
+  background: rgb(255, 255, 255);
+}
+.advantages__post-img {
+  width: 44px;
+  margin-bottom: 18px;
+}
+.advantages__post-title {
+  margin-bottom: 16px;
+  color: rgb(38, 38, 38);
+  font-family: Proxima Nova;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.advantages__post-text {
+  color: rgb(122, 122, 122);
+  font-family: Proxima Nova;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.advantages-pagination {
+
+}
+
+@media(max-width: 1280px) {
+    .advantages__post {
+        margin-bottom: 50px;
+    }
+}
+
+@media(max-width: 530px) {
+    .advantages__post {
+        max-width: 284px;
+    }
+}

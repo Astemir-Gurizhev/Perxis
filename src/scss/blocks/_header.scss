@@ -1,0 +1,110 @@
+.header {
+  padding-block: 23px;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.1);
+  background: rgb(255, 255, 255);
+}
+.header__row {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.header__left {
+  display: flex;
+  align-items: center;
+  gap: 34px;
+}
+.header__burger {
+  position: relative;
+  width: 20px;
+  height: 2px;
+  span {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    width: 20px;
+    height: 2.22px;
+    border-radius: 2px;
+    background: rgb(80, 80, 80);
+    &::before {
+      content: "";
+      position: absolute;
+      top: -8px;
+      width: 20px;
+      height: 2.22px;
+      border-radius: 2px;
+      background: rgb(80, 80, 80);
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      top: 8px;
+      width: 20px;
+      height: 2.22px;
+      border-radius: 2px;
+      background: rgb(80, 80, 80);
+    }
+  }
+}
+.header__logo {
+}
+.header__menu {
+  display: flex;
+  align-items: flex-end;
+  gap: 5px;
+}
+.header__menu-link {
+  color: rgb(38, 38, 38);
+  font-family: Proxima Nova;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.header__right {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.header__numbers {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.header__numbers-number {
+  color: rgb(38, 38, 38);
+  font-family: Proxima Nova;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.header__numbers-img {
+  width: 20px;
+  height: 20px;
+}
+.header__questions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 16px 25.5px 16px 24px;
+  box-sizing: border-box;
+  border: 2px solid rgb(38, 38, 38);
+  border-radius: 8px;
+}
+.header__questions-question {
+  color: rgb(38, 38, 38);
+  font-family: Proxima Nova;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 5%;
+  text-align: left;
+  text-transform: uppercase;
+}
+.header__questions-img {
+  width: 15px;
+  height: 15px;
+}
