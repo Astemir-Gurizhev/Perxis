@@ -1,0 +1,107 @@
+.footer {
+  padding-block: 76px;
+  background: rgb(38, 38, 38);
+}
+.footer__row {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 76px;
+  margin-inline: 20px;
+}
+.footer__column {
+  max-width: 291px;
+  width: 100%;
+}
+.footer__column-title {
+  color: rgb(255, 255, 255);
+  font-family: Proxima Nova;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 24px;
+}
+.footer__column-text {
+  color: rgb(255, 255, 255);
+  font-family: Proxima Nova;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.footer__column-subtitle {
+}
+.footer__column-icons {
+}
+.footer__column-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.footer__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-inline: 20px;
+}
+.footer__bottom-left {
+}
+.footer__bottom-left__row {
+  display: flex;
+  gap: 95px;
+  align-items: center;
+}
+.footer__bottom-left__name {
+  color: rgb(194, 194, 194);
+  font-family: Proxima Nova;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.footer__bottom-left__info {
+  color: rgb(255, 255, 255);
+  font-family: Proxima Nova;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.footer__bottom-right {
+}
+.footer__bottom-right__from {
+  font-family: Proxima Nova;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: right;
+  color: rgb(194, 194, 194);
+  span {
+    color: rgb(255, 255, 255);
+  }
+}
+
+
+@media(max-width: 998px) {
+    .footer__row {
+        flex-direction: column;
+        gap: 33px;
+        margin-bottom: 38px;
+    }
+    .footer__bottom {
+        flex-direction: column;
+        align-items: start;
+        gap: 8px;
+    }
+    .footer__bottom-left__row {
+        flex-direction: column;
+        gap: 8px;
+        align-items: start;
+     }
+}

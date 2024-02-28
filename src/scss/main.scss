@@ -4,16 +4,30 @@
 @import "./base/null.scss";
 
 .wrapper {
-    display: flex;
-    flex-direction: column;
-    min-height: 100%;
-    overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  overflow: hidden;
 }
 main {
-    flex-grow: 1;
+  flex-grow: 1;
 }
 .container {
-    max-width: 1272px;
-    margin: 0 auto;
+  max-width: 1272px;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
-  
+::-webkit-scrollbar {
+  width: 7px;
+  height: 0;
+}
+::-webkit-scrollbar-track {
+  background: rgb(61, 64, 80);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2) inset; /* тень внутри скроллбара */
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(210, 62, 220);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(141, 42, 148);
+}
