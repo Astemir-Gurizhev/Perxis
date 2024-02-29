@@ -3,6 +3,9 @@
 @import "./base/fonts.scss";
 @import "./base/null.scss";
 
+body.menu-open {
+  overflow: hidden;
+}
 .wrapper {
   display: flex;
   flex-direction: column;
